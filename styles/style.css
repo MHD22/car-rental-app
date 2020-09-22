@@ -1,0 +1,150 @@
+*{box-sizing: border-box;}
+body{
+    background-color:#72b2d48e;
+    padding:0;
+    margin:0;
+    
+}
+nav li{
+    display: inline;
+    margin-right: 35px;
+    vertical-align: middle;
+   
+    
+
+}
+li a{
+    text-decoration: none;
+    color: #182d38;
+    font-size: 1.4rem;
+    cursor: pointer;
+    
+}
+header h1{
+    text-align: center;
+    color: #274657;
+}
+
+nav ul.header{
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: #89a9b9;
+    box-shadow: 0px 2px 7px 5px #274657;
+}
+
+article{display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 35px;
+padding-right: 15px;
+padding-left: 15px;}
+
+main section.outer{
+    background-color: #70ac8452;
+    position: relative;
+    width: 250px;
+    height: 40vh;
+    border: 3px solid #274657;
+    border-radius: 1.2rem;
+    box-shadow: 0px 2px 7px 5px #274657;
+    padding-bottom: 0;
+}
+.outer section{
+   
+    line-height: 1.9em;
+
+}
+.input-container{
+    overflow: auto;
+    height: 25vh;
+    
+}
+
+
+
+main{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.button-container{
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    height: 6.6vh;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    
+    justify-content: center;
+    background-color:#2746574b ;
+    
+   
+    
+}
+section h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    background-color:#2746574b ;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    box-shadow: 0px 1px 5px 1px #274657;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0;
+}
+button{
+    background-color:#274657d3;
+    color:whitesmoke;
+    border-radius: 1.1rem;
+    margin: 5px;
+    padding: 7px;
+    
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(2px);
+    color:black;
+    background-color: rgba(37, 35, 35, 0.582);
+}
+li span{
+    color: rgba(85, 30, 30, 0.801);
+    font-size: 1.2em;
+
+}
+footer h5{
+    padding-left: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
+section label{
+    margin: 10px;
+    font-size: 1.2em;
+    color: #274657;
+    font-weight: bold;
+}
+section input{
+    width: 15px;
+    height: 15px;
+    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: #89a9b9;
+    box-shadow: 0px 2px 7px 5px #274657;
+
+}
+nav li a:hover{
+    color:rgb(191, 197, 107);
+
+}
+nav li a:active{
+    filter: opacity(70%);
+}
+input{
+    cursor: pointer;
+}

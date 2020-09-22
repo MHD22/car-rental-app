@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="header">
                 <li><img src="https://i.pinimg.com/originals/52/6a/bf/526abf16cc3e74882fa7304abc0f841c.png" width="75" height="75" alt="logo"> </li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Create list</a></li>
@@ -20,39 +20,63 @@
     </header>
     <main>
         <article>
-            <section>
-                <h3>ToDo</h3>
-                <input type="checkbox" name="todo" ><label> option 1</label><br>
-                <input type="checkbox" name="todo" ><label> option 2</label><br>
-                <input type="checkbox" name="todo" ><label> option 3</label><br>
-                <button>Add</button><button>Delete</button><button>Go..</button>
+            <section class="left  outer">
+                <section>
+                    <h3>ToDo</h3>
+                    <div class="input-container">
+                        <input type="checkbox" name="todo" ><label> option 1</label><br>
+                        <input type="checkbox" name="todo" ><label> option 2</label><br>
+                        <input type="checkbox" name="todo" ><label> option 3</label><br>
+                    </div>
+                </section>
+                <div class="button-container">
+                    <button>Add</button><button>Delete</button><button>Go..</button>
+                </div>
             </section>
-            <section>
-                <h3>In Progress</h3>
-                <input type="checkbox" name="todo" ><label> option 1</label><br>
-                <input type="checkbox" name="todo" ><label> option 2</label><br>
-                <input type="checkbox" name="todo" ><label> option 3</label><br>
-                <button>Add</button><button>Delete</button><button>Go..</button><button>Undo</button>
+            <section class="center outer">
+                <section>
+                    <h3>In Progress</h3>
+                    <div class="input-container">
+                        <input type="checkbox" name="todo" ><label> option 1</label><br>
+                        <input type="checkbox" name="todo" ><label> option 2</label><br>
+                        <input type="checkbox" name="todo" ><label> option 3</label><br>
+                    </div>
+                </section>
+                <div class="button-container">
+                    <button>Add</button><button>Delete</button><button>Go..</button><button>Undo</button>
+                </div>
             </section>
-            <section>
-                <h3>Finish</h3>
-                <input type="checkbox" name="todo" ><label> option 1</label><br>
-                <input type="checkbox" name="todo" ><label> option 2</label><br>
-                <input type="checkbox" name="todo" ><label> option 3</label><br>
-                <button>Add</button><button>Delete</button><button>Undo</button>
+            <section class="right outer">
+                <section>
+                    <h3>Finish</h3>
+                    <div class="input-container">
+                        <input type="checkbox" name="todo" ><label> option 1</label><br>
+                        <input type="checkbox" name="todo" ><label> option 2</label><br>
+                        <input type="checkbox" name="todo" ><label> option 3</label><br>
+                        <input type="checkbox" name="todo" ><label> option 4</label><br>
+                        <input type="checkbox" name="todo" ><label> option 5</label><br>
+                        <input type="checkbox" name="todo" ><label> option 6</label><br>
+                        <input type="checkbox" name="todo" ><label> option 7</label><br>
+                        <input type="checkbox" name="todo" ><label> option 8</label><br>
+                        <input type="checkbox" name="todo" ><label> option 9</label><br>
+                    </div>
+                </section>
+                <div class="button-container">
+                    <button>Add</button><button>Delete</button><button>Undo</button>
+                </div>
             </section>
         </article>
     </main>
     <footer>
         <nav>
-            <ul>
-                <li><p>Contact us: </p></li>
+            <ul class="footer">
+                <li><span>Contact us: </span></li>
                 <li><a href="#">Email</a></li>
                 <li><a href="#">Phone Number</a></li>
                 <li><a href="#">Facebook</a></li>
             </ul>
         </nav>
-        <h6>Copy Right <br>All rights reserved </h6>
+        <h5>Copy Right &copy; All rights reserved </h5>
     </footer>
     
 </body>
