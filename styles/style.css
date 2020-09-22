@@ -5,8 +5,11 @@ body{
     margin:0;
     
 }
+.dark{
+    background-color: #00000073;
+}
 nav li{
-    display: inline;
+    display: inline-block;
     margin-right: 35px;
     vertical-align: middle;
    
@@ -26,10 +29,15 @@ header h1{
     font-size: 2.5rem;
     color: #274657;
 }
+header{
+    width: 100%;
+}
 
-nav ul.header{
+nav {
+    
     margin-top: 0;
     padding-top: 10px;
+    width: 100%;
     background-color: #89a9b9;
     box-shadow: 0px 2px 7px 5px #274657;
 }
@@ -66,7 +74,7 @@ main section.outer{
 
 main{
     margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .button-container{
     border-top: 1px solid black;
@@ -149,4 +157,28 @@ nav li a:active{
 }
 input{
     cursor: pointer;
+}
+#name{
+    display: inline-block;
+    width: fit-content;
+    font-size: 1.7rem;
+    margin-left: 40% ;
+    margin-right: 0;
+    font-weight: 600;
+    color: rgba(80, 25, 25, 0.808);
+   
+}
+ul.header{
+    display: inline-block;
+    width: fitt-conten;
+   
+
+}
+#time{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgba(80, 25, 25, 0.808);
+
 }
