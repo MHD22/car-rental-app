@@ -1,6 +1,6 @@
 *{box-sizing: border-box;}
 body{
-    background-color:#94c0d88e;
+    background-color:#bbddef8e;
     padding:0;
     margin:0;
     
@@ -16,12 +16,14 @@ nav li{
 li a{
     text-decoration: none;
     color: #182d38;
-    font-size: 1.4rem;
+    font-weight: 600;
+    font-size: 1.3rem;
     cursor: pointer;
     
 }
 header h1{
     text-align: center;
+    font-size: 2.5rem;
     color: #274657;
 }
 
@@ -106,7 +108,7 @@ button{
 button:hover{
     transform: translateY(2px);
     color:black;
-    background-color: rgba(37, 35, 35, 0.582);
+    background-color: #cfe6f1a1;
 }
 li span{
     color: rgba(85, 30, 30, 0.801);
